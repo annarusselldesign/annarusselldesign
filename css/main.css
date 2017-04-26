@@ -1,0 +1,183 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family:'Hind Siliguri', sans-serif ;
+    color: #555555;
+}
+
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.quarter-width {
+    width: 300px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height:600px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family:'Cookie', cursive ;
+    font-size: 100px;
+    color: #416c85;
+    padding: 20px 50px;
+    margin: 0px;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #555555 ;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: #555555 ;
+    padding: 20px 50px;
+}
+
+header h2 span {
+    color: ;
+}
+
+/****** ABOUT - 2 column layout ******/
+
+#about {
+    height: 600px;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family:'Cookie', cursive ;
+    font-size: 60px ;
+    margin: 0px auto;
+    color: #416c85;
+}
+#about p {
+    font-size: 21px;
+    color: #555555 ;
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+#about img{
+    border: 7px solid #ffffff;
+}
+
+/****** SKILLS - 3 column layout ******/
+
+#skills {
+    background-color:#f6f5f2 ;
+    text-align: center ;
+    overflow: auto;
+}
+
+#skills .full-width {
+    padding: 115px 0;
+
+}
+
+#skills img {
+    padding-bottom: 30px;
+    height: 100px;
+}
+
+#skills h3 {
+    color: #416c85;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#skills p {
+    font-family:'Hind Siliguri', sans-serif ;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555 ;
+    padding: 0 35px 60px;
+}
+
+/****** Contact - 1 column layout ******/
+
+#contact {
+    background-color: ;
+    height: 300px;
+}
+
+#contact .full-width {
+    padding: 80px 0px;
+}
+
+#contact img{
+    border: 12px solid #ffffff;
+}
+
+#contact h2 {
+  font-family:'Cookie', cursive ;
+  font-size: 60px ;
+  color: #416c85;
+  margin: 0px auto;
+}
+
+#contact p {
+  font-size: 20px;
+  font-family: 'Sarala', sans-serif;
+  line-height: 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+}
+
+#contact a:hover {
+  color: #416c85;
+}
+
+#contact ul {
+    list-style: none;
+
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+  font-size: 32px;
+    padding-right: 20px;
+}
